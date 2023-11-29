@@ -1,0 +1,30 @@
+Create a new file for the script:
+
+touch greeting_script.sh
+
+Open the file in a text editor, such as Vi:
+
+nano greeting_script.sh
+
+Add the following content to the script:
+
+#!/bin/bash
+
+# This is a simple bash script that asks for your name and prints a greeting.
+
+# Prompt the user for their name
+echo "Hello! What's your name?"
+read name
+
+# Print a personalized greeting
+echo "Nice to meet you, $name!"
+
+Save the file and exit the text editor.
+
+Make the script executable:
+
+chmod +x greeting_script.sh
+
+Run the script:
+
+./greeting_script.sh
